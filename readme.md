@@ -1,15 +1,14 @@
-# setup 
-
-## Node 설치 
+# React-Project
+react sample
 
 $ sudo npm install -g webpack webpack-dev-server
-$ npm init 
+
 $ npm install --save react react-dom
+
 $ npm install --save-dev babel-core babel-loader babel-preset-es2015 babel-preset-react
+
 $ npm install --save-dev react-hot-loader webpack webpack-dev-server
 
-## Immutability Heler 
-$ npm install --save react-addons-update
+$ npm run dev-server
 
-## ES6 spread
-$ npm install --save babel-preset-stage-0   
+$ npm install --save react-addons-update
