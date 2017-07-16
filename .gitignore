@@ -15,6 +15,8 @@
 *.iws
 *.iml
 *.ipr
+.idea/workspace.xml
+
 
 ### NetBeans ###
 nbproject/private/
@@ -23,5 +25,5 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
-gradlew
+gradlewㅅ
 gradlew.bat

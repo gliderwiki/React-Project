@@ -48,6 +48,7 @@ export default class Contact extends React.Component {
     }
 
     handleCreate(contact) {
+        // 데이터 추가
         this.setState({
             contactData : update(this.state.contactData, {$push:[contact]})
         });
@@ -57,6 +58,7 @@ export default class Contact extends React.Component {
         if (this.state.selectedKey < 0) {
             return;
         }
+        // select 된 key 부터 1개의 항목을 잘라냄
         this.setState({
             contactData: update(this.state.contactData,
                 { $splice: [[this.state.selectedKey, 1]]}

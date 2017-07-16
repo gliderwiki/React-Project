@@ -11,9 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "babel-preset-stage-0": "^6.16.0",
+    "immutable": "^3.8.1",
     "react": "^15.3.2",
     "react-addons-update": "^15.4.1",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "react-immutable-proptypes": "^2.1.0",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.2",
+    "redux-actions": "^2.2.1"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",
