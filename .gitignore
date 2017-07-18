@@ -17,8 +17,6 @@ node_modules
 *.ipr
 .idea/workspace.xml
 
-.idea
-node_modules
 
 ### NetBeans ###
 nbproject/private/
